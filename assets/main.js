@@ -24,21 +24,6 @@ no.addEventListener('click', function handleClick() {
   no.textContent = 'YES LANG PWEDE PINDUTIN';
 });
 
-no.addEventListener('click', () =>{
-	let pos1 = Math.floor(Math.random() * 75);
-	let pos2 = Math.floor(Math.random() * -300);
-	no.style.position = 'initial';
-	no.style.transform = 'translate(${pos1}px, ${pos2}px)';
-	txt.innerHTML = 'Fleece:>';
-});
-
-no.addEventListener('click', () =>{
-	let pos1 = Math.floor(Math.random() * 75);
-	let pos2 = Math.floor(Math.random() * -300);
-	no.style.position = 'initial';
-	no.style.transform = 'translate(${pos1}px, ${pos2}px)';
-	txt.innerHTML = 'May bug yang No e';
-});
 
 no.addEventListener('click', () => {
 	no.style.display = 'none';
