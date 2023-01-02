@@ -14,7 +14,7 @@ yes.addEventListener('click', () => {
 	con.style.backgroundColor = '#f27b7b';
 	con.style.boxShadow = '#d95454 15px 15px 20px inset, #d95454 -15px -15px 20px inset, #cf1e1e 0 0 100px';
 
-	txt.innerHTML = 'Sabi sayo e<3<br><br>Labas tayo minsan';
+	txt.innerHTML = 'Bat di mo alammm HAHAHAHAHA';
 
 	txt.style.color = 'fff';
 	txt.style.textShadow = '1px 1px #f44d4d, -1px -1px #f444d4d, 0 0 20px red';
@@ -38,6 +38,22 @@ no.addEventListener('click', () =>{
 	no.style.position = 'initial';
 	no.style.transform = 'translate(${pos1}px, ${pos2}px)';
 	txt.innerHTML = 'May bug yang No e';
+});
+
+no.addEventListener('click', () => {
+	no.style.display = 'none';
+	yes.style.display = 'none';
+
+	main.style.backgroundColor = '#f27b7b';
+
+	con.style.border = '2px solid #fff';
+	con.style.backgroundColor = '#f27b7b';
+	con.style.boxShadow = '#d95454 15px 15px 20px inset, #d95454 -15px -15px 20px inset, #cf1e1e 0 0 100px';
+
+	txt.innerHTML = 'HAHAHAHAAHAHAH HATDOGGGG';
+
+	txt.style.color = 'fff';
+	txt.style.textShadow = '1px 1px #f44d4d, -1px -1px #f444d4d, 0 0 20px red';
 });
 
 
